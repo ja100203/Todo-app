@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.containerr{
+background-color: lightyellow;
+width: 100%;
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}    
+.app-wrapper{
+    background-color: #12343b;
+    min-width: 400px;
+    min-height: 450px;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 3px 6px 40px #000;
+    margin-bottom: 10px;
+}
+.header{
+    background-color: transparent;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.header h1{
+    position: absolute;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 2px;
+    background-color: transparent;
+}
+.form-todo{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4rem;
+}
+.task-input{
+   /* position: absolute;*/
+    outline: none;
+    padding: 15px;
+    width: 260px;
+    margin-right: 25px;
+    font-size: 20px;
+    color: white;
+    border: 1px solid #c89666;
+    background-color: #000000;
+    border-radius: 10px;
+}
+.button-add{
+    background-color: transparent;
+    width: 70px;
+    height: 3.5rem;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #f1af71;
+    cursor: pointer;
+}
+.todo-list{
+    margin-top: 1rem;
+    display: flex;
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 2.5rem;
+    width: 350px;
+    margin: 11px 0;
+    padding: 10px;
+}
+.todo-list input{
+    background-color: transparent;
+    border: none;
+    outline-style: none;
+    color: white;
+    border-radius: 0;
+    margin-right: 3.5rem;
+}
+.button-complete,
+.button-delete,
+.button-edit{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 20px;
+    border-radius: 50%;
+    margin-right: .5rem;
+}
